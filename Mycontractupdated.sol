@@ -5,15 +5,13 @@
 // this is essentially making a class
 contract Mycontract {
 
-    string value; //creating an instance value
+    string value public; //creating an instance value and making it public
 
     constructor() public{
     value="myValue";
 }
 
-function get() public view return(string memory){ //getter function
-    return value;
-}
+
       
 function set(string memory _value) public{
     value = _value;
