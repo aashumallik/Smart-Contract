@@ -5,16 +5,13 @@
 // this is essentially making a class
 contract Mycontract {
 
-    string value public; //creating an instance value and making it public
+//creating an instance value and making it public
 
-    constructor() public{
-    value="myValue";
-}
-
-
-      
-function set(string memory _value) public{
-    value = _value;
-}   
-
+    string public stringvalue = "myvalue";
+    bool public mybool = true;
+    //integer can be signed or unsigned
+    int public myint=-1;//signed integers can have signs "+,-"
+    uint public myuint=1; //unsigned integer can't have any signs "+,-"
+    uint8 public myuint8=1; //setting bytes for memory
+    uint256 public myuint256=99999;
 }
