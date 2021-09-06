@@ -1,4 +1,5 @@
 //pragma solidity 0.5.1;
+//adding the dependency
 
 
 // this is essentially making a class
@@ -16,6 +17,6 @@ function get() public view return(string){
       
 function set(string _value) public{
     value = _value;
-}
+}   
 
 }
