@@ -11,11 +11,11 @@ contract Mycontract {
     value="myValue";
 }
 
-function get() public view return(string){
+function get() public view return(string memory){
     return value;
 }
       
-function set(string _value) public{
+function set(string memory _value) public{
     value = _value;
 }   
 
